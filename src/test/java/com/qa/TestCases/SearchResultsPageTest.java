@@ -38,6 +38,15 @@ public class SearchResultsPageTest extends TestBase{
 		
 	}
 	
+	@Test
+	
+	public void print()
+	{
+		
+		System.out.println("Method to add to GIT");
+	}
+	
+	
 	@AfterMethod
 	
 	public void tearDown()
