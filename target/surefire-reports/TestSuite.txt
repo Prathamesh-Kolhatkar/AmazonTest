@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 88.988 sec <<< FAILURE!
+verifyTitleOfSearchedProductTest(com.qa.TestCases.SearchResultsPageTest)  Time elapsed: 43.268 sec  <<< FAILURE!
+java.lang.AssertionError: Title is not matching means product selected is wrong expected [New Apple iPhone 12 (64GB) - Green: Amazon.in1234] but found [New Apple iPhone 12 (64GB) - Green: Amazon.in]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at com.qa.TestCases.SearchResultsPageTest.verifyTitleOfSearchedProductTest(SearchResultsPageTest.java:37)
+
